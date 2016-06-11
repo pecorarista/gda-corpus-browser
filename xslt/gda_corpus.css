@@ -1,0 +1,98 @@
+a.target_word {
+    color: #FF3300;
+    font-weight: bold;
+    text-shadow: #FF99FF 1px 1px 3px; /* #999999 */
+}
+span.marker_id {
+    color: #000099;
+}
+span.marker_eq {
+    color: #000099;
+}
+span.marker_rel {
+    color: #660000;
+    white-space: nowrap;
+}
+td.floating_popup_menu_header {
+    height: 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: #999999;
+}
+.attr {
+    font-weight: bold;
+    color: #CC0000;
+}    
+table.relation {
+    empty-cells: show;
+    border-collapse: collapse;
+}
+td.popupmenu_relation_item {
+    padding: 0px 10px 0px 10px;
+    border-width: 1px;
+    border-style: none solid solid solid;
+    border-color: black;
+}
+table.morph {
+    empty-cells: show;
+    border-collapse: collapse;
+    background-color: #CCFFFF;
+}
+table.morph td.attr {
+    border-width: 1px;
+    border-color: black;
+    border-style: none none solid solid;
+    padding: 0px 10px 0px 2px;
+}
+table.morph td.value {
+    border-width: 1px;
+    border-color: black;
+    border-style: none solid solid none;
+}
+
+blockquote.sense {
+    margin: 0px;
+    width: inherit;
+}
+table.sense {
+    border-collapse: collapse;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CC99FF;
+    margin: 2px;
+}
+table.sense td {
+    padding: 5px;
+}
+td.senseid {
+    color: #6633CC;
+    font-weight: bold;
+    vertical-align: top;
+    white-space: nowrap;
+}
+td.senseid_new {
+    color: #6633CC;
+    font-weight: bold;
+    vertical-align: top;
+    white-space: nowrap;
+    font-style: italic;
+}
+td.deictic {
+    color: #000000;
+    background-color: #FF99FF;
+    margin: 0px;
+    padding: 0px 5px 0px 5px;
+    border-style: solid;
+    border-width: 1px;
+}
+td.deictic_arrow {
+    color: #660000;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+span.headword {
+    color: #3300CC;
+    font-weight: bold;
+}

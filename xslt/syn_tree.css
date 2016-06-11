@@ -1,0 +1,117 @@
+/**
+  *
+  */
+
+/*****************************************************************************/
+
+table.tree {
+  empty-cells: show;
+  white-space: nowrap;
+/*  font-size: x-small;*/
+  border-style: none;
+  padding: 0px;
+  border-collapse: collapse;
+}
+
+table.tree td.node_place {
+  border-style: none;
+  padding: 0;
+}
+
+table.tree td.dtr_place {
+  vertical-align: top;
+  border-style: none;
+  padding: 0;
+}
+
+/*****************************************************************************/
+
+table.node {
+  empty-cells: show;
+  white-space: nowrap;
+/*  font-size: x-small;*/
+  border-style: none;
+  padding: 0ex;
+  border-collapse: collapse;
+}
+
+table.node td.label {
+  vertical-align: middle;
+  border-style: none;
+  padding: 0ex;
+}
+
+table.node td.terminal {
+  padding: 0 1ex 0 1ex;
+  vertical-align: top;
+}
+
+table.node td.upper_left {
+  border-style: solid;
+  border-width: 1px 0px 0px 1px;
+  border-color: brown;
+/*  border-color: red; */
+  padding: 1ex;
+}
+
+table.node td.upper {
+  border-style: solid;
+  border-width: 1px 0px 0px 0px;
+  border-color: brown;
+/*  border-color: blue; */
+  padding: 1ex;
+}
+
+table.node td.left {
+  border-style: solid;
+  border-width: 0px 0px 0px 1px;
+  border-color: brown;
+/*  border-color: green; */
+  padding: 1ex;
+}
+
+table.node td.space {
+  border-style: none;
+  padding: 1ex;
+}
+
+/*****************************************************************************/
+
+/**
+  *
+  */
+
+/*****************************************************************************/
+
+span.target {
+  color: #FF3300;
+  font-weight: bold;
+  text-shadow: #FF99FF 1px 1px 3px;
+}
+
+span.coordination {
+  color: #00CC00;
+}
+
+span.apposition {
+  color: #0033CC;
+}
+
+span.virtual {
+  display: none; /* remove this line to show a label of a virtual node */
+  /* color: #999999; */
+  color: red;
+  font-style: italic;
+}
+
+span.inversion {
+  color: #FF6600;
+}
+
+span.vir_inver {
+  display: none; /* remove this line to show a label of a virtual node */
+  color: #FF6600;
+  font-style: italic;
+}
+
+/*****************************************************************************/
