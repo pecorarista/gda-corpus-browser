@@ -1,6 +1,6 @@
 config.txt
 GSK2010-A-Iwanami/
 index/
-project/
+project/target/
 target/
 xslt/
