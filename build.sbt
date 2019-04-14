@@ -4,7 +4,7 @@ version := "1.0.0"
 
 lazy val root = (project in file("."))
 
-scalaVersion := "2.11.8"
+scalaVersion := "2.12.0"
 
 scalacOptions ++= Seq("-deprecation", "-unchecked", "-Xlint", "-Ywarn-unused-import")
 
